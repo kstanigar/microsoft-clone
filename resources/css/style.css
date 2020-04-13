@@ -77,6 +77,16 @@ ul.main-menu li a:hover {
   opacity: 0.9;
 }
 
+/* Dark */
+.dark {
+  color: #fff;
+}
+
+.dark .btn {
+  background: #f4f4f4;
+  color: #333;
+}
+
 /* Showcase */
 .showcase {
   width: 100%;
@@ -97,4 +107,67 @@ ul.main-menu li a:hover {
 
 .showcase .btn {
   margin-top: 15px;
+}
+
+/* Home Cards */
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.home-cards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.home-cards h3 {
+  margin-bottom: 5px;
+}
+
+.home-cards a {
+  display: inline-block;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.home-cards a:hover i {
+  margin-left: 10px;
+}
+
+/* Xbox */
+.xbox {
+  height: 350px;
+  width: 100%;
+  background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+  margin-bottom: 20px;
+}
+
+.xbox .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+}
+
+.xbox p {
+  margin: 10px 0 20px;
+}
+
+/* Carbon */
+.carbon {
+  height: 350px;
+  width: 100%;
+  background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
+  margin-bottom: 20px;
+}
+
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
+}
+
+.carbon h2, .carbon p {
+  margin-bottom: 10px;
 }
