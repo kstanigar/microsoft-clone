@@ -74,7 +74,7 @@ ul.main-menu li a:hover {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 /* Dark */
@@ -151,7 +151,7 @@ ul.main-menu li a:hover {
   padding: 50px 0 0 30px;
 }
 
-.xbox p {
+.xbox p, .carbon p {
   margin: 10px 0 20px;
 }
 
@@ -168,6 +168,74 @@ ul.main-menu li a:hover {
   padding: 100px 0 0 30px;
 }
 
-.carbon h2, .carbon p {
-  margin-bottom: 10px;
+/*  Follow  */
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0 30px;
+}
+
+.follow * {
+  margin-right: 10px;
+}
+
+/*  Links  */
+.links {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 35px 0;
+}
+
+.links-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.links li {
+  line-height: 2.8;
+}
+
+/*  Footer  */
+.footer {
+  background: #f2f2f2;
+  color: #616161;
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer div i {
+  margin-right: 5px;
+}
+
+.footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer li {
+  margin-right: 25px;
+  margin-bottom: 20px;
 }
